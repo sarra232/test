@@ -26,7 +26,7 @@ var steps = [
 ];
 
 var port = process.env.PORT || 8080  // establecemos nuestro puerto
-var base = "bff-core-onboard-base";
+var base = "onboard-engine";
 app.get('/'+base, function(req, res) {
   res.json({ mensaje: '¡Hola Mundo!' })   
 })
